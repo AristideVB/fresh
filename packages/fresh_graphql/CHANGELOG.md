@@ -4,6 +4,7 @@
 - feat: automatic token refresh based on expiration before requests
 - feat: enhanced token validation with `Token.expiresAt` getter  
 - feat: support for custom token validation logic with GraphQL Request context
+- fix: concurrent UNAUTHENTICATED errors now trigger exactly one token refresh instead of multiple
 
 # 0.6.1
 

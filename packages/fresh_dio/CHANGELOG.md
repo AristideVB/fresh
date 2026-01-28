@@ -4,6 +4,7 @@
 - feat: automatic token refresh based on expiration before requests  
 - feat: enhanced token validation with `Token.expiresAt` getter
 - feat: support for custom token validation logic with RequestOptions context
+- fix: concurrent 401 responses now trigger exactly one token refresh instead of multiple
 
 # 0.4.5
 
